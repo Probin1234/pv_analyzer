@@ -1,0 +1,17 @@
+# Frontend
+streamlit>=1.50
+pandas
+numpy
+requests
+python-dotenv
+
+# Google Drive
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# Machine learning / analysis
+openai-whisper      # speech to text (also installs PyTorch, a big download)
+librosa             # voice analysis
+mediapipe           # face + eye tracking (also installs OpenCV)
+spacy               # optional but recommended: better sentence/word analysis
